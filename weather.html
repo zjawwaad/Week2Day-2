@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+    <script src="weather.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <h1 class="title">Dojo Weather </h1>
+            <div class="navigationcities">
+            <p class="city" onclick="loadingweatherreport(this)">Burbank</p>
+            <p class="city" onclick="loadingweatherreport(this)">Chicago</p> 
+            <p class="city" onclick="loadingweatherreport(this)">Dallas</p>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="subheader">
+            <h1 class="currentcity">San Jose</h1>
+            <div class="cf">
+            <label for="cf">Show temperature in:</label>
+                <select name="cf" id="cf">
+                    <option value="Celcius">°C</option>
+                    <option value="Farenheit">°F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="weatherbyday">
+            <div class="daysofweek">
+                <h3 class="daytitle">Today</h3>
+                <img src="./images/some_rain.png" alt="Some Rain" class="weathericon">
+                <div class="weatherstatus">
+                    <p>Some Rain</p>
+                </div>
+                <div class="temperature">
+                    <span class="max">
+                        24°
+                </span>
+                <span class="min">
+                        18°
+                </span>
+                </div>
+            </div>
+            <div class="daysofweek">
+                <h3 class="daytitle">Tomorrow</h3>
+                <img src="./images/some_sun.png" alt="Some sun" class="weathericon">
+                <div class="weatherstatus">
+                    <p>Some Rain</p>
+                </div>
+                <div class="temperature">
+                <span class="max">
+                        27°
+                </span>
+                <span class="min">
+                        19°
+                    </span>
+                </div>
+            </div>
+            <div class="daysofweek">
+                <h3 class="daytitle">Friday</h3>
+                <img src="./images/some_clouds.png" alt="Some clouds" class="weathericon">
+                <div class="weatherstatus">
+                    <p>Some Rain</p>
+                </div>
+                <div class="temperature">
+                    <span class="max">
+                        21°
+                </span>
+                <span class="min">
+                        16°
+                    </span>
+                </div>
+            </div>
+            <div class="daysofweek">
+                <h3 class="daytitle">Saturday</h3>
+                <img src="./images/some_sun.png" alt="Some sun" class="weathericon">
+                <div class="weatherstatus">
+                    <p>Some Rain</p>
+                </div>
+                <div class="temperature">
+                    <span class="max">
+                        26°
+                </span>
+                <span class="min">
+                        21°
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="cookiewindow">
+            <img src="./images/cookie.png" alt="cookie image" class="cookieimage">
+            <div class="cookiemessage">
+                <h3>
+                    Stop! Cookie Time
+                </h3>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize 
+                    content and ads, to provide social media features and to analyze
+                    our traffic. <a href="#">Read More</a>
+                </p>
+            </div>
+            <div class="acceptbutton">
+                <button onclick="removecookie(this)">I Accept</button>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>
