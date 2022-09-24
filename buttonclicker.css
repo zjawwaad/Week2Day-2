@@ -1,0 +1,72 @@
+* {
+    padding:0;
+    margin: 0em 2em;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.nav {
+    display: flex;
+    padding: 3%;
+    background-color: lightgrey;
+    justify-content: space-evenly;
+}
+
+.login {
+        background-color: blue;
+        color: white;
+        box-shadow: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.containerL {
+    margin: 0em;
+}
+
+.containerR {
+    margin-top: 1em;
+    display: flex;
+    height: 250px;
+    border: 6px solid black;
+    flex-direction: column;
+}
+
+
+
+.definitions {
+    margin-top: 1em;
+    text-align: justify;
+    border: 6px solid black;
+    width: 500px;
+}
+
+
+.ninja1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 0em;
+    text-align: left;
+}
+
+.meaning {
+    text-align: right;
+}
+
+.noun {
+    text-align: center;
+}
+
+.adddefinition {
+    background-color: green;
+    box-shadow: black 5px;
+    height: 6em;
+}
+
+
+.hideElement {
+    display: none;
+}
+

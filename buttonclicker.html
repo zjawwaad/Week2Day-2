@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./buttonclicker.css">
+    <script src="./buttonclicker.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <h1 class="title">
+                Dojonary
+            </h1>
+            <div class="searchbar">
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search"
+                        name="search">
+                </form>
+            </div>
+            <button class=login onclick="logout(this)">login</button>
+        </div>
+    </nav>
+
+    <!--main-->
+    <div class="container">
+
+        <div class="containerL">
+            <div class="definitions">
+                <div class="ninja1">
+                    <h1 class="Ninja">ninja</h1>
+                    <em class="noun">noun</em>
+                    <p>Plural: ninjas</p>
+                </div>
+                <div class="meaning">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">Ninjutsu</a></p>
+                </div>
+                <button class=like onclick="Ninjawasliked(this)">Like</button>
+            </div>
+            <div class="definitions">
+                <div class="ninja1">
+                    <h1 class="Ninja">ninja</h1>
+                    <em class="noun">noun</em>
+                    <p>Plural: ninjas </p>
+                </div>
+                <div class="meaning">
+                    A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.
+                </div>
+                <button class=like onclick="Ninjawasliked(this)">Like</button>
+            </div>
+        </div>
+
+        <div class="containerR">
+            <h2 class="dojonary">Dojonary is defined by YOU</h2>
+            <div>
+                <button class="adddefinition" button onclick="removebutton(this)">Add Definition</button>
+            </div>
+        </div>
+    
+
+</body>
+</html>

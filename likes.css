@@ -1,0 +1,34 @@
+* {
+}
+
+.container {
+    margin: 2em;
+    border: black solid 3px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start center;
+}
+
+
+.count {
+    margin-top: 3em;
+    height: 20px;
+}
+
+.counts {
+    margin-top: 1em;
+    height: 30px;
+    background-color: yellow;
+}
+
+.top {
+    justify-content: start;
+}
+
+.bottom {
+    text-align: justify;
+    padding-top: 10em;
+    text-align: left;
+}
